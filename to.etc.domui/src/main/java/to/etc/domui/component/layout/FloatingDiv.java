@@ -127,7 +127,9 @@ public class FloatingDiv extends Div {
 		if(height > 0) {
 			if(height < 100)
 				throw new IllegalArgumentException("The height=" + height + " is invalid: it cannot be smaller than 100.");
-			setHeight(height + "px");
+			setHeight("100%");
+			setMinHeight(height + "px");
+			setMaxHeight(height + "px");
 		}
 	}
 
