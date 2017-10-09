@@ -113,7 +113,7 @@ public class FloatingDiv extends Div {
 
 	/**
 	 * Change the width and height for the dialog - only valid before it has been
-	 * built!! The minimum size is 250x200 pixels.
+	 * built!! The minimum size is 250x100 pixels.
 	 *
 	 * @param width
 	 * @param height
